@@ -32,6 +32,8 @@ h2{
     margin-top: 5px;
     margin-bottom: 10px ;
     height: 30px;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
 }
 
 .legend small{
