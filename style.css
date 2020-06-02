@@ -44,7 +44,7 @@ h2{
 .rows{
     width: 13px;
     height: 12px;
-    background-color: rgb(194, 198, 201);
+    background-color: rgba(147, 150, 153, 0.692);
     margin: 10px 0;
     border-top-left-radius:15px;
     border-top-right-radius:15px;
@@ -52,7 +52,7 @@ h2{
 
 }
 .rows.unavailable{
-    background-color: white;
+    background-color: rgb(238, 203, 154);
 }
 .rows.selected{
     background-color: cyan;
