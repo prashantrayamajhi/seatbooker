@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Movie Seats</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Now Showing</h2>
+        <select id="movies" class="movies">
+            <option value="250">Avengers (Rs 250)</option>
+            <option value="200">Avatar (Rs 200)</option>
+            <option value="220">Titanic (Rs 220)</option>
+        </select>
+        <div class="legend">
+            <div class="rows"><small>Availabe</small></div>
+            <div class="rows unavailable"><small>Unavailable</small></div>
+            <div class="rows selected"><small>Selected</small></div>
+           
+        </div>
+   
+
+        <div class="screen"></div>
+        <div class="row-wrapper">
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+        </div>
+        <div class="row-wrapper">
+            <div class="rows unavailable"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+        </div>
+        <div class="row-wrapper">
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows"></div>
+        </div>
+        <div class="row-wrapper">
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+        </div>
+        <div class="row-wrapper">
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows unavailable"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+        </div>
+        
+        <div class="footer">
+            <h3><storng id="seats">0</storng> seats booked.The total price is RS <storng id="price">0</storng></h3>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
